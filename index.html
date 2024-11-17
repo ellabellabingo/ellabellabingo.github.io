@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width">
+        <style>
+            button{
+                width:50px;
+                height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas" width="500" height="500">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+        <img src="https://w7.pngwing.com/pngs/737/496/png-transparent-cute-frog-frog-amphibians-green-animals.png" id="frog" style="display: none;">
+        <img src="https://i.pinimg.com/736x/2e/c0/23/2ec023db8940ade1806c8b1e5c85e6bf.jpg" id="frog_laying" style="display: none;">
+
+        <div style="margin-left: 54; margin-bottom: 2;">
+            <button onclick="window.onkeydown({key:'ArrowUp'})">^</button>
+        </div>
+        <button onclick="window.onkeydown({key:'ArrowLeft'})"><</button>
+        <button onclick="window.onkeydown({key:'ArrowDown'})">V</button>
+        <button onclick="window.onkeydown({key:'ArrowRight'})">></button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
